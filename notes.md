@@ -60,7 +60,7 @@
     - npm run typeorm migration:run == roda as migrations
     - npm run typeorm migration:revert == remove as migrations
 
-### Entitys
+### Entities
 - referenciamos uma entidade como se fosse uma tabela
 
 ### Repositories
