@@ -77,3 +77,15 @@
 
 ### Fluxo da requisição
 - Rota -> Controller -> Service -> Repository -> Banco de dados
+
+### JWT - Json Web Token
+- https://jwt.io/
+- é divido em Header, Payload e Signature (todas divididas por ponto ".")
+- Header
+    - configura o tipo de token utilizado e o algoritmo de criptografia
+- Payload
+    - informações que vão ser passadas dentro do token
+    - por exemplo o Id, Email e Nome do usuário
+    - não pode passar informações sensíveis no payload
+- Signature
+    - passar uma chave única (secreta) para cada aplicação

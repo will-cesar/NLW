@@ -11,6 +11,9 @@
 - TypeORM como manipulador dos dados
 - Organização da API com Controllers, Entities, Repositories, Services
 - Utilização de middlewares
+- Criptografia de senhas
+- Autenticação JWT
+- Relacionamento de tabelas
 ```
 
 ## Projetos ##

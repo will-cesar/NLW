@@ -25,6 +25,12 @@
 
 - npm i express-async-errors ==> pacote para tratar os erros de forma assíncrona do express
 
+- npm i jsonwebtoken ==> biblioteca de criptografia
+- npm i @types/jsonwebtoken -D ==> instala as tipagens do jsonwebtoken
+
+- npm i bcryptjs ==> biblioteca para criptografia de senhas
+- npm i @types/bcryptjs -D ==> instala as tipagens do bcryptjs
+
 ### Ferramentas utilizadas
 - Express
 - Typescript
