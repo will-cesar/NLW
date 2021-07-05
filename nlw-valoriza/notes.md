@@ -31,6 +31,11 @@
 - npm i bcryptjs ==> biblioteca para criptografia de senhas
 - npm i @types/bcryptjs -D ==> instala as tipagens do bcryptjs
 
+- npm i class-transformer ==> biblioteca responsável por transformar classes
+
+- npm i cors ==> pacote de configuração do cors
+- npm i @types/cors -D ==> instala as tipagens do cors
+
 ### Ferramentas utilizadas
 - Express
 - Typescript
@@ -73,6 +78,6 @@
     - [ x ] Não é permitido o cadastro por usuários que não sejam administradores
 
 - Cadastro de elogios
-    - [ ] Não é permitido um usuário cadastrar um elogio para si
-    - [ ] Não é permitido cadastrar elogios para usuários inválidos
-    - [ ] O usuário precisa estar autenticado na aplicação
+    - [ x ] Não é permitido um usuário cadastrar um elogio para si
+    - [ x ] Não é permitido cadastrar elogios para usuários inválidos
+    - [ x ] O usuário precisa estar autenticado na aplicação

@@ -1,6 +1,7 @@
 import "reflect-metadata";
 import express, { NextFunction, Request, Response } from 'express';
 import "express-async-errors";
+import cors from "cors";
 
 import { router } from "./routes";
 import './database';
@@ -8,6 +9,8 @@ import './database';
 // o js importa por padrão o arquivo com nome de index diretamente
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 

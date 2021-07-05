@@ -1,3 +1,4 @@
+import { Exclude } from "class-transformer";
 import { Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn } from "typeorm";
 import { v4 as uuid } from "uuid";
 
@@ -16,6 +17,8 @@ class User {
     @Column()
     admin: boolean;
 
+    // o decorator @Exclude é responsável por não exibir a propriedade no retorno das informações dos usuários
+    @Exclude()
     @Column()
     password: string;
 

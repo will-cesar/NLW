@@ -14,6 +14,8 @@
 - Criptografia de senhas
 - Autenticação JWT
 - Relacionamento de tabelas
+- Uso da biblioteca class-transformer
+- Configuração do CORS
 ```
 
 ## Projetos ##
